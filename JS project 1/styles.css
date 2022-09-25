@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: lightgray;
+}
+
+#container {
+    width: 400px;
+    height: 400px;
+    margin: 130px 480px;
+}
+
+#heading {
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px;
+    color: beige;
+    background-color: darkblue;
+    text-align: center;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    margin-bottom: 0px;
+}
+
+#txtArea {
+    width: 100%;
+    height: 350px;
+    padding: 15px;
+    font-size: 20px;
+    color: whitesmoke;
+    background-color: dodgerblue;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    resize: none;
+    border: none;
+    outline: none;
+} 
