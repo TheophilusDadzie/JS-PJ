@@ -1,0 +1,181 @@
+.sub {
+    background-color: red;
+    color: white;
+    border: none;
+    height: 36px;
+    width: 105px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sub:hover {
+    opacity: .8;
+}
+
+.sub:active {
+    opacity: .4;
+}
+
+.join {
+    background-color: white;
+    color: blue;
+    border-color: rgb(41, 118, 211);
+    border-style: solid;
+    border-width: 1px;
+    height: 36px;
+    width: 62px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-left: 8px;
+    box-shadow: 10 10 10 rgba(0, 0, 0, .5);
+}
+
+.join:hover {
+    background-color: rgb(41, 118, 211);
+    color: white;
+    transition: all 1s;
+}
+
+.tweet {
+    background-color: rgb(95, 93, 224);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 70px;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+.uber {
+    background-color: #000;
+    color: white;
+    border: none;
+    border-radius: 1px;
+    height: 36px;
+    width: 100px;
+}
+
+.amazon {
+    background-color: rgb(255, 216, 20);
+    color: black;
+    border: none;
+    height: 36px;
+    width: 140px;
+    border-radius: 18px;
+    margin-left: 8px;
+}
+
+.github {
+    background-color: rgb(46, 164, 79);
+    color: white;
+    height: 36px;
+    border-radius: 3px;
+    width: 80px;
+    border: none;
+    margin-left: 8px;
+}
+
+.download {
+    background-color: white;
+    color: rgb(108, 117, 125);
+    border: 1px solid rgb(108, 117, 125);
+    height: 36px;
+    border-radius: 3px;
+    width: 90px;
+    margin-left: 9px;
+}  
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.name, .email {
+    display: block;
+    margin-top: 3px;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid;
+}
+
+.lastname {
+    margin-left: 5px;
+}
+
+
+.firstname, .lastname {
+    display: inline-block;
+    padding: 10px;
+    width: 102px;
+    border-radius: 5px;
+    border: 1px solid #333;
+    margin-bottom: 10px;
+}
+
+.signup, .mymail {
+    display: block;
+}
+
+.mymail {
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    width: 235px;
+    margin-bottom: 10px;
+}
+
+.signup {
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    width: 257px;
+    font-size: 18px;
+    background-color: rgb(41, 118, 211);
+    color: white;
+}
+
+.location, .destination {
+    padding: 10px;
+    border: none;
+    display: block;
+    margin-top: 3px;
+    width: 250px;
+    border-radius: 4px;
+}
+
+.destination  {
+    margin-bottom: 20px;
+}
+
+.now, .later {
+    display: inline-block;
+}
+
+.now {
+    padding: 6px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    margin-right: 10px;
+}
+
+.later {
+    padding: 6px;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    height: 37px;
+}
+
+.cat {
+    display: inline-block;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
